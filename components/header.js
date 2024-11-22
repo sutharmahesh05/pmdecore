@@ -6,7 +6,7 @@ export default function Header() {
     <div className="container mx-auto flex justify-between items-center">
            <Link href="/">
             <img
-                src="/images/logo-png.png"
+                src="/images/logo-transpaerent-png.png"
                 alt="PMDecore Logo"
                 className="h-14 "
             />
