@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gold: #D4AF37;
+  --light-gray: #F5F5F5;
+}
+
+body {
+  @apply bg-white text-gray-900;
+}
+
+@layer utilities {
+  .text-gold {
+    color: var(--gold);
+  }
+
+  .bg-gold {
+    background-color: var(--gold);
+  }
+
+  .bg-light-gray {
+    background-color: var(--light-gray);
+  }
+
+  .hover\:text-gold:hover {
+    color: var(--gold);
+  }
+
+  .hover\:bg-gold:hover {
+    background-color: var(--gold);
+  }
+}
+
